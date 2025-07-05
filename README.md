@@ -45,6 +45,19 @@
 - **媒体键**: `C_VOLUME_DOWN`, `C_VOLUME_UP`, `K_MUTE`, `K_PLAY_PAUSE`
 - **系统**: `sys_reset`
 
+## 📁 文件结构
+
+- **`build.yaml`**: GitHub Actions 配置文件，用于自动化构建固件。
+- **`keymap_drawer.config.yaml`**: `keymap-drawer` 工具的配置文件，用于生成按键映射图。
+- **`boards/`**: 存放键盘硬件定义文件。
+    - **`arm/eyelash_sofle/`**: `eyelash_sofle` 分体键盘的硬件定义，包括 DTS、引脚配置等。
+- **`config/`**: ZMK 固件的核心配置文件。
+    - **`eyelash_sofle.conf`**: 固件功能开关，如屏幕、RGB 灯效等。
+    - **`eyelash_sofle.keymap`**: 按键映射定义文件，包含所有图层和按键绑定。
+    - **`west.yml`**: `west` 工具的清单文件，用于管理 ZMK 项目依赖。
+- **`keymap-drawer/`**: 存放 `keymap-drawer` 生成的布局图和相关配置文件。
+- **`zephyr/`**: Zephyr RTOS 模块定义文件。
+
 ## 🛠️ 构建与刷写 (Build & Flash)
 
 您需要安装 `west` 工具来构建固件。
