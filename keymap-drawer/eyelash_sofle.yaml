@@ -149,20 +149,20 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - MUTE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAD
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - PgDn
   - PgUp
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUD
+  - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
   - PREV
   - NEXT
   - STOP
   - PLAY PAUSE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
