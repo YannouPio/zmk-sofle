@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   Main0:
-  - '&my_mod_tap ESCAPE EQUAL'
+  - {t: '=', h: '$$mdi:keyboard-esc$$', s: +}
   - '1'
   - '2'
   - '3'
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - '&my_mod_tap LEFT_SHIFT BACKSPACE'
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
@@ -39,9 +39,9 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - '&my_mod_tap RIGHT_SHIFT SINGLE_QUOTE'
+  - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
   - $$mdi:apple-keyboard-command$$
-  - '&my_mod_tap LEFT_ALT Z'
+  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - X
   - C
   - V
@@ -51,16 +51,16 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - '&my_mod_tap RIGHT_ALT SLASH'
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: Sym+Num1}
-  - '&my_mod_tap LEFT_CONTROL TAB'
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&my_mod_tap LEFT_SHIFT BACKSPACE'
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: Brd+Sys2}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
