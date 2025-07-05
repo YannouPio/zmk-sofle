@@ -54,7 +54,7 @@
 &rgb_ug RGB_TOG       &rgb_ug RGB_EFF       &rgb_ug RGB_SPD    &rgb_ug RGB_SPI                  &rgb_ug RGB_BRD                    &rgb_ug RGB_BRI                      &trans  &bt BT_PRV  &bt BT_NXT     &out OUT_TOG     &bt BT_CLR  &trans  &sys_reset
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                  &kp K_MUTE                         &trans                               &trans  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END     &trans  &trans
 &trans                &kp K_PREV            &kp K_NEXT         &kp K_STOP                       &kp K_PLAY_PAUSE                   &trans                               &trans  &kp LEFT    &kp DOWN       &kp UP           &kp RIGHT   &trans  &trans
-&trans                &trans                &trans             &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(131,100,50)  &rgb_ug RGB_COLOR_HSB(233,100,50)    &trans  &trans      &kp LC(TAB)    &kp LC(LS(TAB))  &trans      &trans  &trans
+&trans                &trans                &trans             &rgb_ug RGB_COLOR_HSB(10,85,50)  &rgb_ug RGB_COLOR_HSB(160,80,50)  &rgb_ug RGB_COLOR_HSB(225,80,50)    &trans  &trans      &kp LC(TAB)    &kp LC(LS(TAB))  &trans      &trans  &trans
 &trans                &trans                &trans             &trans                           &trans                             &trans                               &trans  &trans      &trans         &trans           &trans      &trans
             >;
         };
