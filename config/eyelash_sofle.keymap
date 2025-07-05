@@ -44,10 +44,10 @@
         Brd+Sys2 {
             label = "Brd+Sys";
             bindings = <
-&rgb_ug RGB_TOG       &rgb_ug RGB_EFF       &rgb_ug RGB_SPD    &rgb_ug RGB_SPI                  &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI                      &trans  &bt BT_PRV  &bt BT_NXT     &out OUT_TOG     &bt BT_CLR  &soft_off  &sys_reset
-&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                  &kp K_MUTE                        &trans                               &trans  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END     &trans     &trans
-&trans                &kp K_PREV            &kp K_NEXT         &kp K_STOP                       &kp K_PLAY_PAUSE                  &trans                               &trans  &kp LEFT    &kp DOWN       &kp UP           &kp RIGHT   &trans     &trans
-&trans                &trans                &trans             &rgb_ug RGB_COLOR_HSB(5,100,30)  &rgb_ug RGB_COLOR_HSB(75,100,50)  &rgb_ug RGB_COLOR_HSB(167,100,50)    &trans  &trans      &kp LC(TAB)    &kp LC(LS(TAB))  &trans      &trans     &trans
+&rgb_ug RGB_TOG       &rgb_ug RGB_EFF       &rgb_ug RGB_SPD    &rgb_ug RGB_SPI                  &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI                      &trans  &bt BT_PRV  &bt BT_NXT     &out OUT_TOG     &bt BT_CLR  &soft_off        &sys_reset
+&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                  &kp K_MUTE                        &rgb_ug RGB_SAD                      &trans  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END     &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
+&trans                &kp K_PREV            &kp K_NEXT         &kp K_STOP                       &kp K_PLAY_PAUSE                  &rgb_ug RGB_SAI                      &trans  &kp LEFT    &kp DOWN       &kp UP           &kp RIGHT   &trans           &trans
+&trans                &trans                &trans             &rgb_ug RGB_COLOR_HSB(5,100,30)  &rgb_ug RGB_COLOR_HSB(75,100,50)  &rgb_ug RGB_COLOR_HSB(167,100,50)    &trans  &trans      &kp LC(TAB)    &kp LC(LS(TAB))  &trans      &trans           &trans
 &trans                &trans                &trans             &trans                           &trans                            &trans                               &trans  &trans      &trans         &trans           &trans      &trans
             >;
         };
