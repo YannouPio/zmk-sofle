@@ -173,9 +173,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB COLOR HSB(0,100,50)
-  - RGB COLOR HSB(131,100,50)
-  - RGB COLOR HSB(233,100,50)
+  - RGB COLOR HSB(10,85,50)
+  - RGB COLOR HSB(160,80,50)
+  - RGB COLOR HSB(225,80,50)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:keyboard-tab$$
