@@ -280,8 +280,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-Main0">
-<text x="0" y="28" class="label" id="Main0">Main0:</text>
+<g transform="translate(40, 0)" class="layer-Qwerty">
+<text x="0" y="28" class="label" id="Qwerty">Qwerty:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -579,8 +579,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#SymNum1">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">Sym+Num1</tspan></text>
+<a href="#SymNum">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Sym+Num</tspan></text>
 </a></g>
 <g transform="translate(389, 294) rotate(30.0)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -603,8 +603,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#BrdSys2">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">Brd+Sys2</tspan></text>
+<a href="#BrdSys">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Brd+Sys</tspan></text>
 </a></g>
 <g transform="translate(672, 259)" class="key trans keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -623,8 +623,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-Sym+Num1">
-<text x="0" y="28" class="label" id="SymNum1">Sym+Num1:</text>
+<g transform="translate(40, 388)" class="layer-Sym+Num">
+<text x="0" y="28" class="label" id="SymNum">Sym+Num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -958,8 +958,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-Brd+Sys2">
-<text x="0" y="28" class="label" id="BrdSys2">Brd+Sys2:</text>
+<g transform="translate(40, 776)" class="layer-Brd+Sys">
+<text x="0" y="28" class="label" id="BrdSys">Brd+Sys:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

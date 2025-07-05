@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  Main0:
+  Qwerty:
   - {t: '=', h: '$$mdi:keyboard-esc$$', s: +}
   - '1'
   - '2'
@@ -57,15 +57,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', h: Sym+Num1}
+  - {t: '$$mdi:keyboard-return$$', h: Sym+Num}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: Brd+Sys2}
+  - {t: '$$mdi:keyboard-space$$', h: Brd+Sys}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Sym+Num1:
+  Sym+Num:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Brd+Sys2:
+  Brd+Sys:
   - RGB TOG
   - RGB EFF
   - RGB SPD
