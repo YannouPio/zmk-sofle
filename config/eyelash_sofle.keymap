@@ -57,11 +57,11 @@
         Brd+Sys3 {
             label = "Brd+Sys";
             bindings = <
-&rgb_ug RGB_TOG       &rgb_ug RGB_EFF       &rgb_ug RGB_SPD    &rgb_ug RGB_SPI                  &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI                      &trans  &bt BT_PRV  &bt BT_NXT   &out OUT_TOG     &bt BT_CLR  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI
-&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                  &kp C_MUTE                        &sys_reset                           &trans  &kp HOME    &kp PG_DN    &kp PG_UP        &kp END     &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
-&trans                &kp K_PREV            &kp K_NEXT         &kp K_STOP                       &kp K_PLAY_PAUSE                  &soft_off                            &trans  &kp LEFT    &kp DOWN     &kp UP           &kp RIGHT   &trans           &trans
-&trans                &trans                &studio_unlock     &rgb_ug RGB_COLOR_HSB(5,100,30)  &rgb_ug RGB_COLOR_HSB(75,100,50)  &rgb_ug RGB_COLOR_HSB(167,100,50)    &trans  &trans      &kp LC(TAB)  &kp LC(LS(TAB))  &trans      &trans           &trans
-&trans                &trans                &trans             &trans                           &trans                            &trans                               &trans  &trans      &trans       &trans           &trans      &trans
+&soft_off       &sys_reset      &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD   &rgb_ug RGB_BRI         &trans  &bt BT_PRV  &bt BT_NXT   &out OUT_TOG     &bt BT_CLR  &sys_reset  &soft_off
+&studio_unlock  &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE        &kp C_BRIGHTNESS_INC    &trans  &kp HOME    &kp PG_DN    &kp PG_UP        &kp END     &trans      &trans
+&trans          &kp C_PREVIOUS  &kp C_NEXT         &kp C_STOP       &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC    &trans  &kp LEFT    &kp DOWN     &kp UP           &kp RIGHT   &trans      &trans
+&trans          &trans          &rgb_ug RGB_HUD    &rgb_ug RGB_HUI  &rgb_ug RGB_SAD   &rgb_ug RGB_SAI         &trans  &trans      &kp LC(TAB)  &kp LC(LS(TAB))  &trans      &trans      &trans
+&trans          &trans          &trans             &trans           &trans            &trans                  &trans  &trans      &trans       &trans           &trans      &trans
             >;
         };
     };
