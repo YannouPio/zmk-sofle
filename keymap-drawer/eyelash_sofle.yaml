@@ -196,10 +196,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Brd+Sys:
-  - RGB TOG
+  - '&soft_off'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB EFF
-  - RGB SPD
-  - RGB SPI
+  - RGB TOG
   - RGB BRD
   - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
@@ -207,27 +207,27 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - $$mdi:bluetooth-off$$
-  - RGB SAD
-  - RGB SAI
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&soft_off'
+  - '&studio_unlock'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - PG DN
   - PG UP
   - END
-  - RGB HUD
-  - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
-  - PREV
-  - NEXT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PREVIOUS
+  - $$mdi:skip-next$$
   - STOP
   - PLAY PAUSE
-  - '&soft_off'
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -237,10 +237,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&studio_unlock'
-  - RGB COLOR HSB(5,100,30)
-  - RGB COLOR HSB(75,100,50)
-  - RGB COLOR HSB(167,100,50)
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:keyboard-tab$$
