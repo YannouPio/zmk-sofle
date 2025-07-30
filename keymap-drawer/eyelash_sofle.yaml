@@ -263,3 +263,6 @@ layers:
 combos:
 - p: [55, 61]
   k: {t: Game, h: toggle}
+- p: [34, 35]
+  k: $$mdi:keyboard-esc$$
+  l: [Qwerty]
